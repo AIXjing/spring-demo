@@ -1,0 +1,10 @@
+#server:
+#  port: 8000
+#
+#app:
+#  datasource:
+#    jdbc-url: jdbc:postgres://localhost:5432/demodb
+#    username: postgres
+#    password: password
+#    pool-size: 30
+

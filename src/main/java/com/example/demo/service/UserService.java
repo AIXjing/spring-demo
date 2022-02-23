@@ -16,7 +16,7 @@ public class UserService {
     private final UserDao userDao;
 
     @Autowired // autowire this service to this interface
-    public UserService(@Qualifier("fakeDao") UserDao userDao) {
+    public UserService(@Qualifier("postgres") UserDao userDao) { // @Qualifier("fakeDao") if use a fake database
         this.userDao = userDao;
     }
 
